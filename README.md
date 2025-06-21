@@ -15,7 +15,7 @@ Developed by Muhammed Farish | Security Researcher.
 
 ## 🚀 Quick Start
 
-> ⚠️ Prerequisite: Docker & Docker Compose must be installed.
+> ⚠️ Prerequisite: Latest Docker & Docker Compose must be installed, Otherwise you will face errors while installing.
 
 ### 🔧 Run the Lab
 
