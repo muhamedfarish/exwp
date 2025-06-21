@@ -1,0 +1,9 @@
+# BEGIN WordPress
+
+php_value upload_max_filesize 256M
+php_value post_max_size 256M
+# END WordPress
+
+# BEGIN ShortPixel Adaptive Images
+
+# END ShortPixel Adaptive Images

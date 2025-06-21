@@ -1,0 +1,212 @@
+﻿[2025-06-20 14:00:16] MySQL ERROR
+==============================================================
+INSERT INTO wp_wsm_logVisit (siteId,visitorId,visitId,refererUrlId,serverTime,timeSpentRef,URLId,keyword) VALUES (34,'132123',sleep(10),0,',12,0,'2025-06-20 13:00:14',0,1,'https://0')
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '2025-06-20 13:00:14',0,1,'https://0')' at line 1
+Array
+(
+    [siteId] => 34
+    [pageId] => 2
+    [userId] => 1
+    [visitorId] => 132123',sleep(10),0,
+    [cookie] => 0
+    [director] => 0
+    [flash] => 0
+    [gears] => 0
+    [java] => 0
+    [quicktime] => 0
+    [realplayer] => 0
+    [pdf] => 0
+    [windowsmedia] => 0
+    [silverlight] => 0
+    [serverTime] => 2025-06-20 13:00:14
+    [deviceType] => 0
+    [daysSinceLastVisit] => 0
+    [daysSinceFirstVisit] => 0
+    [returningVisitor] => 0
+    [visitCount] => 1
+    [currentLocalTime] => 13:00:14
+    [configId] => b38bdd2a15db7045
+    [visitEntryURLId] => 1
+    [URLId] => 1
+    [refererUrlId] => 0
+    [visitTotalActions] => 1
+    [totalTimeVisit] => 0
+    [visitExitURLId] => 1
+    [visitLastActionTime] => 2025-06-20 13:00:16
+    [timeSpentRef] => 0
+    [firstActionVisitTime] => 2025-06-20 13:00:16
+    [browserLang] => en-US
+    [ipAddress] => 172.18.0.1
+    [city] => 
+    [latitude] => 0.000000
+    [longitude] => 0.000000
+    [countryId] => 0
+    [id] => 3
+    [browserId] => 0
+    [regionId] => 0
+    [oSystemId] => 0
+    [resolutionId] => 0
+    [visitId] => 12
+    [keyword] => https://0
+)
+
+
+[2025-06-20 14:00:23] MySQL ERROR
+==============================================================
+INSERT INTO wp_wsm_logVisit (siteId,visitorId,visitId,refererUrlId,serverTime,timeSpentRef,URLId,keyword) VALUES (34,'132123',sleep(10),0,',12,0,'2025-06-20 13:00:22',7,1,'https://0')
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '2025-06-20 13:00:22',7,1,'https://0')' at line 1
+Array
+(
+    [siteId] => 34
+    [pageId] => 2
+    [userId] => 1
+    [visitorId] => 132123',sleep(10),0,
+    [cookie] => 0
+    [director] => 0
+    [flash] => 0
+    [gears] => 0
+    [java] => 0
+    [quicktime] => 0
+    [realplayer] => 0
+    [pdf] => 0
+    [windowsmedia] => 0
+    [silverlight] => 0
+    [serverTime] => 2025-06-20 13:00:22
+    [deviceType] => 0
+    [daysSinceLastVisit] => 0
+    [daysSinceFirstVisit] => 0
+    [returningVisitor] => 0
+    [visitCount] => 1
+    [currentLocalTime] => 13:00:22
+    [configId] => b38bdd2a15db7045
+    [visitEntryURLId] => 1
+    [URLId] => 1
+    [refererUrlId] => 0
+    [visitTotalActions] => visitTotalActions+1
+    [totalTimeVisit] => 8
+    [visitExitURLId] => 1
+    [visitLastActionTime] => 2025-06-20 13:00:23
+    [timeSpentRef] => 7
+    [firstActionVisitTime] => 2025-06-20 13:00:16
+    [browserLang] => en-US
+    [ipAddress] => 172.18.0.1
+    [city] => 
+    [latitude] => 0.000000
+    [longitude] => 0.000000
+    [countryId] => 0
+    [id] => 12
+    [browserId] => 0
+    [regionId] => 0
+    [oSystemId] => 0
+    [resolutionId] => 0
+    [visitId] => 12
+    [keyword] => https://0
+)
+
+
+[2025-06-20 14:00:28] MySQL ERROR
+==============================================================
+INSERT INTO wp_wsm_logVisit (siteId,visitorId,visitId,refererUrlId,serverTime,timeSpentRef,URLId,keyword) VALUES (34,'132123',sleep(10),0,',12,0,'2025-06-20 13:00:27',5,1,'https://0')
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '2025-06-20 13:00:27',5,1,'https://0')' at line 1
+Array
+(
+    [siteId] => 34
+    [pageId] => 2
+    [userId] => 1
+    [visitorId] => 132123',sleep(10),0,
+    [cookie] => 0
+    [director] => 0
+    [flash] => 0
+    [gears] => 0
+    [java] => 0
+    [quicktime] => 0
+    [realplayer] => 0
+    [pdf] => 0
+    [windowsmedia] => 0
+    [silverlight] => 0
+    [serverTime] => 2025-06-20 13:00:27
+    [deviceType] => 0
+    [daysSinceLastVisit] => 0
+    [daysSinceFirstVisit] => 0
+    [returningVisitor] => 0
+    [visitCount] => 1
+    [currentLocalTime] => 13:00:27
+    [configId] => b38bdd2a15db7045
+    [visitEntryURLId] => 1
+    [URLId] => 1
+    [refererUrlId] => 0
+    [visitTotalActions] => visitTotalActions+1
+    [totalTimeVisit] => 13
+    [visitExitURLId] => 1
+    [visitLastActionTime] => 2025-06-20 13:00:28
+    [timeSpentRef] => 5
+    [firstActionVisitTime] => 2025-06-20 13:00:16
+    [browserLang] => en-US
+    [ipAddress] => 172.18.0.1
+    [city] => 
+    [latitude] => 0.000000
+    [longitude] => 0.000000
+    [countryId] => 0
+    [id] => 12
+    [browserId] => 0
+    [regionId] => 0
+    [oSystemId] => 0
+    [resolutionId] => 0
+    [visitId] => 12
+    [keyword] => https://0
+)
+
+
+[2025-06-20 14:00:39] MySQL ERROR
+==============================================================
+INSERT INTO wp_wsm_logVisit (siteId,visitorId,visitId,refererUrlId,serverTime,timeSpentRef,URLId,keyword) VALUES (34,'132123',sleep(10),0,',12,0,'2025-06-20 13:00:38',11,1,'https://0')
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '2025-06-20 13:00:38',11,1,'https://0')' at line 1
+Array
+(
+    [siteId] => 34
+    [pageId] => 2
+    [userId] => 1
+    [visitorId] => 132123',sleep(10),0,
+    [cookie] => 0
+    [director] => 0
+    [flash] => 0
+    [gears] => 0
+    [java] => 0
+    [quicktime] => 0
+    [realplayer] => 0
+    [pdf] => 0
+    [windowsmedia] => 0
+    [silverlight] => 0
+    [serverTime] => 2025-06-20 13:00:38
+    [deviceType] => 0
+    [daysSinceLastVisit] => 0
+    [daysSinceFirstVisit] => 0
+    [returningVisitor] => 0
+    [visitCount] => 1
+    [currentLocalTime] => 13:00:38
+    [configId] => b38bdd2a15db7045
+    [visitEntryURLId] => 1
+    [URLId] => 1
+    [refererUrlId] => 0
+    [visitTotalActions] => visitTotalActions+1
+    [totalTimeVisit] => 24
+    [visitExitURLId] => 1
+    [visitLastActionTime] => 2025-06-20 13:00:39
+    [timeSpentRef] => 11
+    [firstActionVisitTime] => 2025-06-20 13:00:16
+    [browserLang] => en-US
+    [ipAddress] => 172.18.0.1
+    [city] => 
+    [latitude] => 0.000000
+    [longitude] => 0.000000
+    [countryId] => 0
+    [id] => 12
+    [browserId] => 0
+    [regionId] => 0
+    [oSystemId] => 0
+    [resolutionId] => 0
+    [visitId] => 12
+    [keyword] => https://0
+)
+
+

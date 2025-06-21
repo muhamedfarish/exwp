@@ -1,0 +1,24 @@
+services:
+  wordpress:
+    image: wordpress:4.7.0
+    platform: linux/amd64
+    ports:
+      - "8111:80"
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_NAME: expwpdb
+      WORDPRESS_DB_USER: expwp_user
+      WORDPRESS_DB_PASSWORD: expwp!103
+    volumes:
+      - ./wp-data:/var/www/html
+
+  db:
+    image: mysql:5.7
+    platform: linux/amd64
+    environment:
+      MYSQL_DATABASE: expwpdb
+      MYSQL_USER: expwp_user
+      MYSQL_PASSWORD: expwp!103
+      MYSQL_ROOT_PASSWORD: root!0pass
+    volumes:
+      - ./db-data:/var/lib/mysql

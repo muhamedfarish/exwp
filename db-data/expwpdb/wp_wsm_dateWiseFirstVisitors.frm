@@ -1,0 +1,15 @@
+TYPE=VIEW
+query=select date_format(convert_tz(`wp_wsm_uniqueVisitors`.`firstVisitTime`,\'+00:00\',\'+01:00\'),\'%Y-%m-%d\') AS `recordDate`,count(`wp_wsm_uniqueVisitors`.`visitorId`) AS `visitors` from `expwpdb`.`wp_wsm_uniqueVisitors` group by date_format(convert_tz(`wp_wsm_uniqueVisitors`.`firstVisitTime`,\'+00:00\',\'+01:00\'),\'%Y-%m-%d\')
+md5=f894f847e2d29a7ed4065de98c105e49
+updatable=0
+algorithm=0
+definer_user=expwp_user
+definer_host=%
+suid=2
+with_check_option=0
+timestamp=2025-06-21 07:14:41
+create-version=1
+source=SELECT DATE_FORMAT(CONVERT_TZ(firstVisitTime,\'+00:00\',\'+01:00\'),\'%Y-%m-%d\') as recordDate, COUNT(visitorId) as visitors FROM wp_wsm_uniqueVisitors GROUP BY DATE_FORMAT(CONVERT_TZ(firstVisitTime,\'+00:00\',\'+01:00\'),\'%Y-%m-%d\')
+client_cs_name=utf8mb4
+connection_cl_name=utf8mb4_unicode_520_ci
+view_body_utf8=select date_format(convert_tz(`wp_wsm_uniqueVisitors`.`firstVisitTime`,\'+00:00\',\'+01:00\'),\'%Y-%m-%d\') AS `recordDate`,count(`wp_wsm_uniqueVisitors`.`visitorId`) AS `visitors` from `expwpdb`.`wp_wsm_uniqueVisitors` group by date_format(convert_tz(`wp_wsm_uniqueVisitors`.`firstVisitTime`,\'+00:00\',\'+01:00\'),\'%Y-%m-%d\')

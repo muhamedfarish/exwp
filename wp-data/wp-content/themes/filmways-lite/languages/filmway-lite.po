@@ -1,0 +1,140 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Filmway-Lite\n"
+"POT-Creation-Date: 2023-03-12 15:44+0530\n"
+"PO-Revision-Date: 2023-03-12 15:44+0530\n"
+"Last-Translator: \n"
+"Language-Team: Grace Themes <support@gracethemes.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _;__;_e;gettext;gettext_noop;esc_attr;esc_attr__;"
+"esc_attr_e;esc_html;esc_html__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: customize-pro/class-customize.php:76
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: customize-pro/class-customize.php:77
+msgid "Upgrade Now"
+msgstr ""
+
+#: inc/block-patterns.php:18
+msgid "Filmways Lite Patterns"
+msgstr ""
+
+#: inc/block-patterns.php:19
+msgid "Pages"
+msgstr ""
+
+#: inc/patterns/footer-default.php:6
+msgid "Default footer"
+msgstr ""
+
+#: inc/patterns/header-banner.php:6
+msgid "Header Banner"
+msgstr ""
+
+#: inc/patterns/header-default.php:6
+msgid "Default Header"
+msgstr ""
+
+#: inc/patterns/hidden-404.php:6
+msgid "404 Not Found"
+msgstr ""
+
+#: inc/patterns/inner-banner.php:6
+msgid "Inner Banner"
+msgstr ""
+
+#: inc/patterns/sidebar.php:6
+msgid "Sidebar"
+msgstr ""
+
+#: inc/patterns/what-we-do.php:6
+msgid "What We Do"
+msgstr ""
+
+#: inc/patterns/who-we-are.php:6
+msgid "Who We Are"
+msgstr ""
+
+#: inc/theme-info.php:7
+msgid "Filmways Lite"
+msgstr ""
+
+#: inc/theme-info.php:7
+msgid "About Filmways Lite"
+msgstr ""
+
+#: inc/theme-info.php:32
+msgid ""
+"The Filmways Lite is a highly attractive and sophisticated looking free "
+"Movie Studio WordPress theme. This amazing filmmaker WordPress theme is "
+"designed for filmmaker websites, movie studio websites, and other movie-"
+"related websites. The homepage of this WordPress theme serves as the perfect "
+"eye candy to retain the attention of the viewers on the web. The homepage is "
+"developed with Gutenberg block Editor."
+msgstr ""
+
+#: inc/theme-info.php:39
+msgid ""
+"This is a next-generation WordPress theme that adopts the Full Site Editing "
+"concept compatible with Gutenberg blog editor. "
+msgstr ""
+
+#: inc/theme-info.php:44
+msgid ""
+"The themes layout will automatically adjust and fit on any screen resolution "
+"and looks great on any device. Fully optimized for iPhone and iPad."
+msgstr ""
+
+#: inc/theme-info.php:49
+msgid ""
+"Our themes are tested in all mordern web browsers and compatible with the "
+"latest version including Chrome, Firefox, Safari, Opera, IE11 and above."
+msgstr ""
+
+#: inc/theme-info.php:54
+msgid ""
+"Fully compatible with WooCommerce plugin. Just install the plugin and turn "
+"your site into a full featured online shop and start selling products."
+msgstr ""
+
+#: inc/theme-info.php:63
+msgid "Get Filmways PRO"
+msgstr ""
+
+#: inc/theme-info.php:64
+msgid "More features and options are availbale in premium version."
+msgstr ""
+
+#: inc/theme-info.php:70
+msgid "Important Links"
+msgstr ""
+
+#: inc/theme-info.php:74
+msgid "Demo Preview"
+msgstr ""
+
+#: inc/theme-info.php:77
+msgid "Documentation"
+msgstr ""
+
+#: inc/theme-info.php:81
+msgid "View Our Premium Themes"
+msgstr ""
+
+#: inc/theme-info.php:87
+msgid "Leave us a review"
+msgstr ""
+
+#: inc/theme-info.php:88
+msgid "If you are satisfied with Filmways Lite, please give your feedback."
+msgstr ""

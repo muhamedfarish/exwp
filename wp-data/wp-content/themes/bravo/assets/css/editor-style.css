@@ -1,0 +1,28 @@
+@import url('http://fonts.googleapis.com/css?family=Raleway:400,700');
+body {background-color:#f4f4f4; color:#000; font-family:'Raleway', sans-serif; font-size:16px; line-height:28px;}
+a {color:#2574a9;}
+a:hover {color:#34495e;}
+#tinymce {margin-bottom:45px; width:725px;}
+#tinymce h1, #tinymce h2, #tinymce h3, #tinymce h4, #tinymce h5, #tinymce h6 {margin:0 0 30px 0;}
+#tinymce h1 {font-size:30px;}
+#tinymce h2 {font-size:27px;}
+#tinymce h3 {font-size:24px;}
+#tinymce h4 {font-size:21px;}
+#tinymce h5 {font-size:18px;}
+#tinymce h6 {font-size:16px;}
+#tinymce p {margin-bottom:30px;}
+#tinymce ul, #tinymce ol {padding:0;}
+#tinymce li {margin:0 0 10px 20px;}
+#tinymce img {max-width:100%; display:inline-block; height:auto;}
+#tinymce table {width:100%; margin-bottom:30px;}
+#tinymce table td, #tinymce table th {border:1px solid #ddd; padding:5px 8px;}
+#tinymce blockquote {background-color:#eee; padding:5px 20px; margin:0 0 20px 0; font-size:18px; color:#555;}
+#tinymce blockquote cite {width:100%; color:#000; font-size:16px; margin-top:10px; font-style:italic; display:block; font-weight:bold;}
+#tinymce dt {font-weight:bold;}
+#tinymce dd {margin:0 0 20px 0;}
+#tinymce .alignleft {float:left; margin-right:20px;}
+#tinymce .alignright {float:right; margin-left:20px;}
+#tinymce .aligncenter {margin:auto;}
+#tinymce .wp-caption {max-width:100%;}
+#tinymce .wp-caption-text, #tinymce .gallery-caption {margin-top:0; font-size:13px; line-height:17px; font-weight:bold; color:#555;}
+#tinymce cite {border:0;}

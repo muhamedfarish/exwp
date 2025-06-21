@@ -1,0 +1,251 @@
+/*
+Theme Name: Fun Planet FSE
+Theme URI: https://gracethemes.com/themes/free-water-park-wordpress-theme/
+Author: Grace Themes
+Author URI: https://gracethemes.com/
+Description: The Fun Planet FSE theme is a highly versatile theme designed for amusement parks, kid's parks, waterparks, and related commercial websites. This multipurpose theme is also suitable for business corporate, construction, hotel, restaurant, flower shop, travel and tour website, coaching, education, sports, medical, doctor, gym, fitness, modelling and wedding. This theme can make your website reach incredible heights of prosperity by using its amazing features. If you are planning to open a commercial website related to fun rides, water parks, etc., look no further than the Fun Planet FSE theme. It is super easy to install. This free water park WordPress theme comes with a one-click installation feature and provides multiple updates to its users frequently. The visual appeal of this free water park WordPress theme is highly attractive and sophisticated. The Fun Planet FSE theme is highly widget-friendly. The Fun Planet FSE theme is fully SEO optimized. As the Fun Planet FSE theme is a multilingual free water park WordPress theme, it supports multiple languages. Also, it is a translation-ready theme.  Demo: http://www.gracethemesdemo.com/fun-planet/
+Version: 1.0
+License: GNU General Public License version 2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: fun-planet-fse
+Requires PHP:  5.6
+Tested up to: 6.2
+Tags:blog, photography, entertainment, one-column, two-columns, left-sidebar, right-sidebar, block-styles, custom-colors, editor-style, custom-background, custom-logo, custom-menu, featured-images, footer-widgets, template-editing, full-site-editing, block-patterns,  threaded-comments, wide-blocks, translation-ready
+Fun Planet FSE WordPress Theme has been created by Grace Themes(gracethemes.com), 2023.
+Fun Planet FSE WordPress Theme is released under the terms of GNU GPL
+*/
+
+body {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+/*
+ * Text and navigation link styles.
+ * Necessary until the following issue is resolved in Gutenberg:
+ * https://github.com/WordPress/gutenberg/issues/27075
+ */
+
+a {
+	text-decoration-thickness: 1px;
+	text-underline-offset: 0.25ch;
+}
+
+a:hover,
+a:focus {
+	text-decoration-style: dashed;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+.wp-block-navigation .wp-block-navigation-item a:hover,
+.wp-block-navigation .wp-block-navigation-item a:focus {
+	text-decoration: underline;
+	text-decoration-style: solid;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{clear: both; font-family: 'Poppins', sans-serif;}
+
+body,
+p,
+html,
+button,
+.wp-block-button,
+input,
+select,
+textarea{ font-family: 'Poppins', sans-serif;}
+.entry-content.wp-block-post-content p{ margin-bottom:25px;}
+
+/*
+ * Search and File Block button styles.
+ * Necessary until the following issues are resolved in Gutenberg:
+ * https://github.com/WordPress/gutenberg/issues/36444
+ * https://github.com/WordPress/gutenberg/issues/27760
+ */
+
+.wp-block-search__button,
+.wp-block-file .wp-block-file__button {
+	background-color: var(--wp--preset--color--primary);
+	border-radius: 0;
+	border: none;
+	color: var(--wp--preset--color--background);
+	font-size: var(--wp--preset--font-size--medium);
+	padding: calc(.667em + 2px) calc(1.333em + 2px);
+}
+
+body.home .wp-site-blocks > * + *{
+	margin-block-start:0 !important;
+}
+
+
+/*
+ * Button hover styles.
+ * Necessary until the following issue is resolved in Gutenberg:
+ * https://github.com/WordPress/gutenberg/issues/27075
+ */
+
+.wp-block-search__button:hover,
+.wp-block-file .wp-block-file__button:hover,
+.wp-block-button__link:hover {
+	opacity: 0.90;
+}
+
+/*
+ * Alignment styles.
+ * These rules are temporary, and should not be relied on or
+ * modified too heavily by themes or plugins that build on
+ * Twenty Twenty-Two. These are meant to be a precursor to
+ * a global solution provided by the Block Editor.
+ *
+ * Relevant issues:
+ * https://github.com/WordPress/gutenberg/issues/35607
+ * https://github.com/WordPress/gutenberg/issues/35884
+ */
+
+.wp-site-blocks,
+body > .is-root-container,
+.edit-post-visual-editor__post-title-wrapper,
+.wp-block-group.alignfull,
+.wp-block-group.has-background,
+.wp-block-cover.alignfull,
+.is-root-container .wp-block[data-align="full"] > .wp-block-group,
+.is-root-container .wp-block[data-align="full"] > .wp-block-cover {
+	padding-left: var(--wp--custom--spacing--outer);
+	padding-right: var(--wp--custom--spacing--outer);
+}
+
+.wp-site-blocks .alignfull,
+.wp-site-blocks > .wp-block-group.has-background,
+.wp-site-blocks > .wp-block-cover,
+.wp-site-blocks > .wp-block-template-part > .wp-block-group.has-background,
+.wp-site-blocks > .wp-block-template-part > .wp-block-cover,
+body > .is-root-container > .wp-block-cover,
+body > .is-root-container > .wp-block-template-part > .wp-block-group.has-background,
+body > .is-root-container > .wp-block-template-part > .wp-block-cover,
+.is-root-container .wp-block[data-align="full"] {
+	margin-left: calc(-1 * var(--wp--custom--spacing--outer)) !important;
+	margin-right: calc(-1 * var(--wp--custom--spacing--outer)) !important;
+	width: unset;
+}
+
+/*body.home .wp-block-cover{ margin-block-start:0 !important; }*/
+nav.Hdr-menu.wp-block-navigation ul{ font-weight:600 !important;}
+
+
+/* Blocks inside columns don't have negative margins. */
+.wp-site-blocks .wp-block-columns .wp-block-column .alignfull,
+.is-root-container .wp-block-columns .wp-block-column .wp-block[data-align="full"],
+/* We also want to avoid stacking negative margins. */
+.wp-site-blocks .alignfull:not(.wp-block-group) .alignfull,
+.is-root-container .wp-block[data-align="full"] > *:not(.wp-block-group) .wp-block[data-align="full"] {
+	margin-left: auto !important;
+	margin-right: auto !important;
+	width: inherit;
+}
+
+/*
+ * Responsive menu container padding.
+ * This ensures the responsive container inherits the same
+ * spacing defined above. This behavior may be built into
+ * the Block Editor in the future.
+ */
+
+.wp-block-navigation__responsive-container.is-menu-open {
+	padding-top: var(--wp--custom--spacing--outer);
+	padding-bottom: var(--wp--custom--spacing--large);
+	padding-right: var(--wp--custom--spacing--outer);
+	padding-left: var(--wp--custom--spacing--outer);
+}
+.block-topmenu-bar{ position:relative !important;  z-index:999 !important;}
+.wp-block-navigation ul li.current-menu-item > a,
+.wp-block-navigation ul li a:hover{ color:#36c5d5 !important;}
+ul.wp-block-page-list li a{ font-weight:500;}
+.bannerInfo { position:relative;}
+
+.header-Fixed{ position:absolute !important; top:auto !important; z-index:999 !important; width:100% !important}
+
+/* = Contact Form 7 CSS
+----------------------------------------------- */
+.wpcf7{ 
+	margin:30px 0 0;
+	padding:0;
+}
+.wpcf7 input[type="text"], 
+.wpcf7 input[type="tel"], 
+.wpcf7 input[type="email"]{ 
+	width:40%;
+	border:1px solid #cccccc;
+	box-shadow:inset 1px 1px 2px #ccc;
+	color:#797979;
+	margin-bottom:0;
+	height:40px;
+	padding:0 15px;
+}
+.wpcf7 textarea{	
+	color:#797979;
+	margin-bottom:25px;
+	border:1px solid #cccccc;
+	box-shadow:inset 1px 1px 2px #ccc;
+	padding:10px;
+	width:60%;
+	height:160px;
+	font-size:12px;
+}
+.wpcf7 input[type="submit"]{
+	border-radius:40px;
+	font-weight:600;
+	font-size:16px;
+	cursor:pointer;
+	background-color:#36c5d5;
+	padding:20px 40px;
+	color:#ffffff;	
+	width:auto;
+	border:none;
+	text-transform:uppercase;
+}
+.wpcf7 input[type="submit"]:hover{
+	background-color:#101010;
+}
+
+.top-fourbx{ position:relative; box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 10%); margin-right:3% !important; background-color:#ffffff; border-radius:8px; }
+.top-fourbx .wp-block-image { width:104px; height:104px; line-height:80px; overflow:hidden; text-align:center; margin:0 auto; box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 10%); border-radius:100%; }
+.top-fourbx .wp-block-image img{ width:100%; height:auto;}
+.top-fourbx.Last{ margin-right:0 !important; }
+.top-fourbx:hover{ background-color:#35c2d2 !important}
+.top-fourbx:hover h5, .top-fourbx:hover p{ color:#fff !important}
+
+
+.video-bannerBX{ position:relative; vertical-align:top!important; display:block !important;}
+.VideoCover{ position:relative; overflow:hidden; border-radius:15px !important;}
+.Circle-BgBx{ width:600px; height:600px; position: absolute; right:-7%; top:-20%;}
+.Circle-BgBx .wp-block-buttons.BgBx-button{ margin-right:25% !important}
+
+.Exi-Col3{ position:relative; margin-bottom:30px !important;}
+.Exi-Col3 .exi-title{ margin-top:-130px !important; padding:30px !important; color:#fff;}
+.Exi-Col3 .exi-thumbbx img{ width:100% !important; max-width:100% !important;}
+
+
+.LeftCoverBX{ max-width:424px; text-align:right; position:relative !important;}
+.expBX{ width:200px!important; position:absolute; left:-15% !important; bottom:-5% !important; box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 10%);}
+.LeftCoverBX img{ border-radius:15px !important;}
+.Company-infoBX:hover{ background-color:#36c5d5 !important;}
+.Company-infoBX:hover h2, .Company-infoBX:hover h5{ color:#ffffff;}
+
+ul.footerSocial li.wp-block-social-link a{ font-size:24px !important; padding:15px !important;;}
+ul.foot-LatestPost li{ margin-bottom:20px !important}
+ul.foot-LatestPost li .wp-block-latest-posts__post-date{ color:#55a287 !important;}
+
+.PostStyle-1 ul li{ padding:10px 25px; margin-bottom:30px;}
+body.single.single-post .PostStyle-1{  padding:10px 35px; }
+.sidebar-posts.wp-block-latest-posts li{ margin-bottom:25px;}
+
+/* = section1 CSS
+----------------------------------------------- */
+.wp-block-image.imgbx-01 img{ max-width:inherit;}

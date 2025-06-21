@@ -1,0 +1,15 @@
+TYPE=VIEW
+query=select date_format(convert_tz(`wp_wsm_pageViews`.`visitLastActionTime`,\'+00:00\',\'+01:00\'),\'%Y-%m\') AS `recordMonth`,sum(`wp_wsm_pageViews`.`totalViews`) AS `pageViews` from `expwpdb`.`wp_wsm_pageViews` group by date_format(convert_tz(`wp_wsm_pageViews`.`visitLastActionTime`,\'+00:00\',\'+01:00\'),\'%Y-%m\')
+md5=3905a41664363ff25188a3d39a950c1d
+updatable=0
+algorithm=0
+definer_user=expwp_user
+definer_host=%
+suid=2
+with_check_option=0
+timestamp=2025-06-06 13:59:21
+create-version=1
+source=SELECT DATE_FORMAT(CONVERT_TZ(visitLastActionTime,\'+00:00\',\'+01:00\'),\'%Y-%m\') as recordMonth, SUM(totalViews) as pageViews  FROM wp_wsm_pageViews  GROUP BY DATE_FORMAT(CONVERT_TZ(visitLastActionTime,\'+00:00\',\'+01:00\'),\'%Y-%m\')
+client_cs_name=utf8mb4
+connection_cl_name=utf8mb4_unicode_520_ci
+view_body_utf8=select date_format(convert_tz(`wp_wsm_pageViews`.`visitLastActionTime`,\'+00:00\',\'+01:00\'),\'%Y-%m\') AS `recordMonth`,sum(`wp_wsm_pageViews`.`totalViews`) AS `pageViews` from `expwpdb`.`wp_wsm_pageViews` group by date_format(convert_tz(`wp_wsm_pageViews`.`visitLastActionTime`,\'+00:00\',\'+01:00\'),\'%Y-%m\')

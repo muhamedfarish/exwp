@@ -1,0 +1,161 @@
+/* 
+Theme Name: Bravo
+Description: Bravo is a responsive 2 column multi-purpose theme. 
+Author: Michael Burrows  
+Author URI: http://www.wpmultiverse.com/
+Theme URI: http://www.wpmultiverse.com/themes/bravo/
+Tags: blue, white, light, two-columns, right-sidebar, responsive-layout, custom-menu, editor-style, featured-images, sticky-post, theme-options, threaded-comments
+Version: 1.0.3
+License: GNU General Public License v3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html 
+Bravo WordPress Theme, Copyright 2014 wpmultiverse.com
+Bravo WordPress Theme is distributed under the terms of the GNU GPL
+Text Domain: bravo
+*/ 
+
+body {background-color:#f4f4f4; color:#000; font-family:'Raleway', sans-serif; font-size:16px; line-height:28px;}
+a {color:#2574a9;}
+a:hover {color:#34495e;}
+.admin-bar .fixed {top:25px;}
+
+/* ----- header ----- */
+header {padding-top:30px; margin-bottom:45px; width:100%; background-color:#fff; border-bottom:3px solid #eee;}
+header #header-top {padding-bottom:20px;}
+header #site-name {font-family:'Lobster', cursive; font-size:38px; line-height:1em; float:left; margin-top:-3px;}
+header nav {float:right; display:block;}
+header nav ul {position:relative; padding:0; margin:0;}
+header nav li {display:inline-block; margin-left:20px;}
+header nav li a {display:block;}
+header nav li.menu-item-has-children a {padding-bottom:10px;}
+header nav li.current-menu-item a {color:#34495e;}
+header nav .sub-menu {display:none; position:absolute; z-index:9999; background-color:#f4f4f4; text-align:left; margin-left:-16px; -webkit-box-shadow:1px 2px 2px 0px rgba(50, 50, 50, 0.1); -moz-box-shadow:1px 2px 2px 0px rgba(50, 50, 50, 0.1); box-shadow:1px 2px 2px 0px rgba(50, 50, 50, 0.1);}
+header nav .sub-menu li {display:block; white-space:nowrap; font-size:14px; text-transform:none; padding:0; border:0; margin:0;}
+header nav .sub-menu li a {width:100%; display:block; padding:2px 16px;}
+header nav .sub-menu li a:hover {background-color:#2574a9; color:#fff;}
+header #hamburger {display:none;}
+header #hero-block {border-top:1px solid #eee; padding-top:30px;}
+header #hero-block h3 {font-size:22px; font-weight:bold; margin:0;}
+header #hero-block p {margin-bottom:30px;}
+header #hero-block a {float:right; background-color:#2574a9; color:#fff; padding:5px 15px; margin-bottom:30px;}
+header #hero-block a:hover {background-color:#34495e;}
+header #hero-block a span {font-family:arial,sans-serif; font-size:20px; opacity:0.5;}
+header .fixed {position:fixed; top:0; padding-top:20px; background-color:#fff; width:100%; border-bottom:3px solid #eee; z-index:9999;}
+header .fixed #header-top {border:0; margin:0; padding-bottom:10px;}
+header .fixed #site-name {font-size:24px; margin-top:2px;}
+header .fixed nav li {font-size:14px;}
+
+/* ----- footer ----- */
+footer {border-top:3px solid #eee; margin-top:60px; padding:25px 0; text-align:center;}
+footer .menu {padding:0;}
+footer .menu li {display:inline; margin-right:25px; font-weight:bold; font-size:15px; text-transform:uppercase;}
+footer #footer-meta {font-size:14px; margin-bottom:0;}
+footer #footer-meta a, footer #footer-copyright a {color:#000;}
+footer #footer-copyright {font-size:13px; margin-top:0;}
+
+/* ----- widgets ----- */
+#primary-sidebar {padding-left:45px;}
+.widget {font-size:14px; margin-bottom:30px;}
+.widget h4 {margin:0 0 10px 0;}
+.widget p {margin:0 0 20px 0;}
+.widget ul {padding:0; margin:0 0 20px 16px;}
+.widget img {max-width:100%; display:inline-block; height:auto;}
+.widget select {max-width:100%;}
+.widget_search label {width:70%; margin-bottom:0;}
+.widget_search .search-field {width:100%; padding:8px 10px 9px 10px; margin:0;}
+.widget_calendar table {width:100%; text-align:center;}
+.widget_tag_cloud a {font-size:13px!important; background-color:#ddd; padding:2px 8px; display:inline-block; margin:0 6px 6px 0;}
+
+/* ----- post teasers ----- */
+.teaser {border-bottom:1px solid #ddd; margin-bottom:30px; padding-bottom:30px;}
+.teaser .sticky {margin:-8px 0 0 0; color:#2574a9; text-transform:uppercase; font-weight:bold; font-size:13px;}
+.teaser .sticky span {font-size:36px; position:relative; top:6px;}
+.teaser-date-comments p {font-size:14px; margin:0;}
+.teaser .attachment-featured-cropped {max-width:100%; height:auto; margin-bottom:30px;}
+.teaser-post-title {margin:0; font-size:22px; display:inline-block; border-bottom:3px solid #ddd; padding-bottom:10px;}
+.teaser .more-link {font-size:12px; font-weight:bold; border-bottom:2px solid #2574a9; color:#34495e;}
+.page-links {display:inline-block; border:1px solid #ddd; border-right:none; margin-left:17.4%;}
+.page-links .page-numbers {float:left; padding:0 10px; font-size:16px; border-right:1px solid #ddd;}
+.page-links .current {background-color:#eee; color:#aaa;}
+
+/* ----- posts & pages ----- */
+#post-title {margin-top:0;}
+#post-title-img {background:transparent url('assets/img/transparent-dark.png'); position:relative; padding:30px; width:725px; color:#fff; font-size:28px; line-height:35px;}
+#post-title-img.single {margin-top:-95px;}
+#post-title-img.double {margin-top:-130px;}
+article {margin-bottom:45px;}
+article h1, article h2, article h3, article h4, article h5, article h6 {margin:0 0 30px 0;}
+article h1 {font-size:30px;}
+article h2 {font-size:27px;}
+article h3 {font-size:24px;}
+article h4 {font-size:21px;}
+article h5 {font-size:18px;}
+article h6 {font-size:16px;}
+article p {margin-bottom:30px;}
+article ul, article ol {padding:0;}
+article li {margin:0 0 5px 20px;}
+article img, .attachment-featured {max-width:100%; display:inline-block; height:auto;}
+article table {width:100%; margin-bottom:30px;}
+article table td, article table th {border:1px solid #ddd; padding:5px 8px;}
+article blockquote {background-color:#eee; padding:5px 20px 0 20px; margin:0 0 20px 0; font-size:18px; color:#555;}
+article blockquote cite {width:100%; color:#000; font-size:16px; margin-top:10px; font-style:italic; display:block; font-weight:bold;}
+article dt {font-weight:bold;}
+article dd {margin:0 0 20px 0;}
+article .alignleft {float:left; margin-right:20px;}
+article .alignright {float:right; margin-left:20px;}
+article .aligncenter {margin:auto;}
+article .wp-caption {max-width:100%;}
+article .wp-caption-text, article .gallery-caption {margin-top:0; font-size:13px; line-height:17px; font-weight:bold; color:#555;}
+#post-category {margin:30px 0 0 0; font-size:15px;}
+#post-tags {margin:0; font-size:15px;}
+#post-author {float:left; width:100%; margin:0 0 45px 0; padding-top:12px; border-top:3px solid #eee; border-bottom:3px solid #eee;}
+#post-author img {float:left; margin:8px 20px 15px 0;}
+#post-author a {text-transform:uppercase; font-size:14px; font-weight:bold;}
+#post-author p {float:left; width:85%; margin-top:0; font-size:15px;}
+
+/* ----- comments & forms ----- */
+#respond {width:75%;}
+#comments-title {font-size:20px;}
+.comment-list {padding:0;}
+.comment-list li {list-style:none; border-left:3px solid #ddd; padding-left:20px; margin-bottom:30px;}
+.comment-list .bypostauthor {border-color:#2574a9;}
+.comment img {float:left; margin:2px 10px 0 0;}
+.comment .comment-author-name {line-height:22px; font-size:14px;}
+.comment .comment-author-name span {font-weight:bold; text-transform:uppercase;}
+.comment .comment-body {margin-top:-8px;}
+.comment .comment-body p {margin-top:0; font-size:15px; line-height:1.5em;}
+#commentform {margin-left:-15px;}
+#commentform label {font-size:15px;}
+#commentform .comment-notes, .logged-in-as {margin-left:15px; font-size:14px; font-style:italic;}
+#commentform input[type=text] {width:100%;}
+#commentform .comment-form-comment {margin-left:15px;}
+#commentform .comment-form-comment label {display:block; width:100%;}
+#commentform .comment-form-comment textarea {width:100%;}
+#commentform .form-submit {margin-left:15px;}
+input[type=text], input[type=email], input[type=password], input[type=search], textarea {border:1px solid #ddd; margin-bottom:15px; font-size:15px; padding:6px 12px; -webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px;}
+input[type=submit], input[type=reset] {background-color:#2574a9; border:0; color:#fff; padding:8px 14px; text-align:center; font-size:15px;}
+input[type=password] {width:100%;}
+.screen-reader-text, .form-allowed-tags {display:none;}
+
+/* ----- media queries ----- */
+@media (max-width:1200px) {	
+	header #site-name {margin-bottom:20px;}	
+	.teaser .teaser-date-comments {margin-bottom:10px;}
+	.teaser .teaser-date-comments p {display:inline; margin-right:10px;}	
+	#post-title-img {width:auto;}
+}
+@media (max-width:992px) {	
+	header #hero-block a {float:left;}
+	#primary-sidebar {padding-left:15px;}
+}
+@media (max-width:768px) {	
+	header nav {float:left; clear:both; margin-left:-15px;}
+	header nav li {font-size:14px;}	
+}
+@media (max-width:480px) {
+	header #site-name {margin-bottom:0; font-size:28px;}
+	header nav {display:none; margin-top:20px; padding-top:20px; border-top:1px solid #eee;}
+	header nav li {width:100%;}
+	header nav li.menu-item-has-children a {padding-bottom:0;}
+	header #hamburger {display:block; border:1px solid #eee; background-color:#eee; width:30px; float:right; margin:0 15px 0 0; padding:4px 4px 0 4px; -webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px;}
+	header #hamburger span {height:3px; width:100%; background-color:#ddd; margin-bottom:4px; display:block;}
+}
