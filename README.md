@@ -22,7 +22,7 @@ Developed by Muhammed Farish | Security Researcher.
 ```bash
 git clone https://github.com/muhamedfarish/exwp.git
 cd exwp
-docker-compose up
+docker-compose up -d
 ```
 
 Visit the web:
