@@ -27,3 +27,6 @@ docker-compose up -d
 
 Visit the web:
 http://localhost:8111
+Admin Panel Credentials:
+admin:expwp@9870
+
